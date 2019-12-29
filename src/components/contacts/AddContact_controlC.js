@@ -48,7 +48,7 @@ class AddContact extends Component {
                             <div className="card-body">
                                 <form onSubmit={this.handleSubmit.bind(this, dispatch)}>
                                     <div className="form-group">
-                                        <label htmlFor="name">Name</label>
+                                        <label htmlFor="">Name</label>
                                         <input 
                                             type="text" 
                                             name="name" 
