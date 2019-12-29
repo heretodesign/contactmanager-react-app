@@ -11,7 +11,7 @@ const TextInputGroup = ({ label, name, value, placeholder, type, onChange }) => 
                 className="form-control form-control-lg" 
                 placeholder={placeholder} 
                 value={value}
-                onChange={handleChange}
+                onChange={onChange}
             />
         </div>
     )
